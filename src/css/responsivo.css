@@ -1,0 +1,35 @@
+@media (max-width: 1120px){
+    .cabecalho .logo{
+        max-width: 190px;
+    }
+
+    .selecao-de-clubes{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-clubes .clubes{
+        margin-top: 37px;
+    }
+
+    .selecao-de-clubes .clubes .titulo{
+        font-size: 15px;
+    }
+
+
+    .selecao-de-clubes .clube img{
+        width: 80px;
+    }
+
+    .clube-selecionado .clube-grande{
+        width: 350px;
+        height: 350px;
+    }
+
+    .clube-selecionado .descricao-clube{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}

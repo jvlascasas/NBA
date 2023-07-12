@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto NBA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet"
+    /> 
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <img class=logo src="./src/imagens/nba-logo.png" alt="Logo NBA" srcset="" width="150">
+    </header>
+
+    <main
+        class="selecao-de-clubes">
+    <section class="clubes">
+        <h1 class="titulo">
+        <img src="./src/imagens/card-western.png" alt="" width="200" weight="205">
+        </h1>
+
+        <ul class="lista-de-clubes">
+        <li class="clube selecionado" id="dallas" data-name="Dallas Mavericks" data-description="1 vez campeão da NBA, Dallas Mavericks é uma franquia localizada em Dallas, Texas. A franquia foi fundada em 1980, tendo seu primeiro título conquistado na temporada 2010-2011.">
+            <img src="./src/imagens/card-dallas.png" alt="Clube Dallas" width="110">
+        </li>
+
+        <li class="clube" id="denver" data-name="Denver Nuggets" data-description="1 vez campeão da NBA, Denver Nuggets é uma franquia localizada em Denver, Colorado. A franquia foi fundada em 1967, tendo seu primeiro título conquistado na temporada 2022-2023.">
+             <img src="./src/imagens/card-denver.png" alt="Clube Denver" width="110">
+        </li>
+
+        <li class="clube" id="houston" data-name="Houston Rockets" data-description="2 vezes campeão da NBA, Houston Rockets é uma franquia localizada em Houston, Texas. A franquia foi fundada em 1967, tendo seu primeiro título conquistado na temporada 1993-1994.">
+            <img src="./src/imagens/card-houston.png" alt="Clube Houston" width="110">
+       </li>
+
+       <li class="clube" id="clippers" data-name="Los Angeles Clippers" data-description="Sem nunca ter sido campeão da NBA, Los Angeles Clippers é uma franquia localizada em Los Angeles, Califórnia. A franquia foi fundada em 1970.">
+        <img src="./src/imagens/card-clippers.png" alt="Clube Clippers" width="110">
+   </li>
+
+   <li class="clube" id="lakers" data-name="Los Angeles Lakers" data-description="17 vezes campeão da NBA, Los Angeles Lakers é uma franquia localizada em Los Angeles, Califórnia. A franquia foi fundada em 1947, tendo seu primeiro título conquistado na temporada 1948-1949.">
+    <img src="./src/imagens/card-lakers.png" alt="Clube Lakers" width="110">
+</li>
+
+<li class="clube" id="memphis" data-name="Memphis Grizzlies" data-description="Sem nunca ter sido campeão da NBA, Memphis Grizzlies é uma franquia localizada em Memphis, Tennessee. A franquia foi fundada em 1995.">
+    <img src="./src/imagens/card-memphis.png" alt="Clube Memphis" width="110">
+</li>
+
+<li class="clube" id="minnesota" data-name="Minnesota Timberwolves" data-description="Sem nunca ter sido campeão da NBA, Minnesota Timberwolves é uma franquia localizada em Minneapolis, Minnesota. A franquia foi fundada em 1989.">
+    <img src="./src/imagens/card-minnesota.png" alt="Clube Minnesota" width="110">
+</li>
+
+<li class="clube" id="pelicans" data-name="New Orleans Pelicans" data-description="Sem nunca ter sido campeão da NBA, New Orleans Pelicans é uma franquia localizada em New Orleans, Luisiana. A franquia foi fundada em 2002.">
+    <img src="./src/imagens/card-pelicans.png" alt="Clube Pelicans" width="110">
+</li>
+
+<li class="clube" id="phoenix" data-name="Phoenix Suns" data-description="Sem nunca ter sido campeão da NBA, Phoenix Suns é uma franquia localizada em Phoenix, Arizona. A franquia foi fundada em 1968.">
+    <img src="./src/imagens/card-phoenix.png" alt="Clube Phoenix" width="110">
+</li>
+
+<li class="clube" id="portland" data-name="Portland Trail Blazers" data-description="1 vez campeão da NBA, Portland Trail Blazers é uma franquia localizada em Portland, Oregon. A franquia foi fundada em 1970, tendo seu primeiro título conquistado na temporada 1976-1977.">
+    <img src="./src/imagens/card-portland.png" alt="Clube Portland" width="110">
+</li>
+
+<li class="clube" id="sacramento" data-name="Sacramento Kings" data-description="1 vez campeão da NBA, Sacramento Kings é uma franquia localizada em Sacramento, Califórnia. A franquia foi fundada em 1948, tendo seu primeiro título conquistado na temporada 1950-1951.">
+    <img src="./src/imagens/card-sacramento.png" alt="Clube Sacramento" width="110">
+</li>
+
+<li class="clube" id="spurs" data-name="San Antonio Spurs" data-description="5 vezes campeão da NBA, San Antonio spurs é uma franquia localizada em San Antonio, Texas. A franquia foi fundada em 1967, tendo seu primeiro título conquistado na temporada 1998-1999.">
+    <img src="./src/imagens/card-spurs.png" alt="Clube Spurs" width="110">
+</li>
+
+<li class="clube" id="utah" data-name="Utah Jazz" data-description="Sem nunca ter sido campeão da NBA, Utah Jazz é uma franquia localizada em Salt Lake City, Utah. A franquia foi fundada em 1974.">
+    <img src="./src/imagens/card-utah.png" alt="Clube Utah" width="110">
+</li>
+
+<li class="clube" id="warriors" data-name="Golden State Warriors" data-description="7 vezes campeão da NBA, Golden State Warriors é uma franquia localizada em San Francisco, Califórnia. A franquia foi fundada em 1946, tendo seu primeiro título conquistado na temporada 1946-1947.">
+    <img src="./src/imagens/card-warriors.png" alt="Clube Warriors" width="110">
+</li>
+
+<li class="clube" id="oklahoma" data-name="Oklahoma City Thunder" data-description="1 vez campeão da NBA, Oklahoma City Thunder é uma franquia localizada em Oklahoma City, Oklahoma. A franquia foi fundada em 1967, tendo seu primeiro título conquistado na temporada 1978-1979.">
+    <img src="./src/imagens/card-oklahoma.png" alt="Clube Oklahoma" width="110">
+</li>
+        </ul>
+    </section>
+
+    <section class="clube-selecionado">
+        <img class="clube-grande" src="./src/imagens/card-dallas.png" alt="Clube Selecionado">
+
+        <div class="informacoes-clube">
+            <h2 class="nome-clube" id="nome-clube">Dallas Mavericks</h2>
+            <p class="descricao-clube" id="descricao-clube">1 vez campeão da NBA, Dallas Mavericks é uma franquia localizada em Dallas, Texas. A franquia foi fundada em 1980, tendo seu primeiro título conquistado na temporada 2010-2011.</p>
+
+        </div>
+    </section>
+    <section class="clubes">
+
+        <h1 class="titulo">
+            <img src="./src/imagens/card-eastern.png" alt="" width="200" weight="205">
+            </h1>
+            <ul class="lista-de-clubes">
+                <li class="clube" id="atlanta" data-name="Atlanta Hawks" data-description="1 vez campeão da NBA, Atlanta Hawks é uma franquia localizada em Atlanta, Geórgia. A franquia foi fundada em 1946, tendo seu primeiro título conquistado na temporada 1957-1958.">
+                    <img src="./src/imagens/card-atlanta.png" alt="Clube Atlanta" width="110">
+                </li>
+
+                <li class="clube" id="boston" data-name="Boston Celtics" data-description="17 vezes campeão da NBA, Boston Celtics é uma franquia localizada em Boston, Massachussetts. A franquia foi fundada em 1946, tendo seu primeiro título conquistado na temporada 1956-1957.">
+                    <img src="./src/imagens/card-boston.png" alt="Clube Boston" width="110">
+                </li>
+
+                <li class="clube" id="charlotte" data-name="Charlotte Hornets" data-description="Sem nunca ter sido campeão da NBA, Charlotte Hornets é uma franquia localizada em Charlotte, Carolina do Norte. A franquia foi fundada em 1988.">
+                    <img src="./src/imagens/card-charlotte.png" alt="Clube Charlotte" width="110">
+                </li>
+
+                <li class="clube" id="chicago" data-name="Chicago Bulls" data-description="6 vezes campeão da NBA, Chicago Bulls é uma franquia localizada em Chicago, Illinois. A franquia foi fundada em 1966, tendo seu primeiro título conquistado na temporada 1990-1991.">
+                    <img src="./src/imagens/card-chicago.png" alt="Clube Chicago" width="110">
+                </li>
+
+                <li class="clube" id="cleveland" data-name="Cleveland Cavaliers" data-description="1 vez campeão da NBA, Cleveland Cavaliers é uma franquia localizada em Cleveland, Ohio. A franquia foi fundada em 1970, tendo seu primeiro título conquistado na temporada 2015-2016.">
+                    <img src="./src/imagens/card-cleveland.png" alt="Clube Cleveland" width="110">
+                </li>
+
+                <li class="clube" id="detroit" data-name="Detroit Pistons" data-description="3 vezes campeão da NBA, Detroit Pistons é uma franquia localizada em Detroit, Michigan. A franquia foi fundada em 1941, tendo seu primeiro título conquistado na temporada 1988-1989.">
+                    <img src="./src/imagens/card-detroit.png" alt="Clube Detroit" width="110">
+                </li>
+
+                <li class="clube" id="indiana" data-name="Indiana Pacers" data-description="Sem nunca ter sido campeão da NBA, Indiana Pacers é uma franquia localizada em Indianápolis, Indiana. A franquia foi fundada em 1967.">
+                    <img src="./src/imagens/card-indiana.png" alt="Clube Indiana" width="110">
+                </li>
+
+                <li class="clube" id="miami" data-name="Miami Heat" data-description="3 vezes campeão da NBA, Miami Heat é uma franquia localizada em Miami, Flórida. A franquia foi fundada em 1988, tendo seu primeiro título conquistado na temporada 2005-2006.">
+                    <img src="./src/imagens/card-miami.png" alt="Clube Miami" width="110">
+                </li>
+
+                <li class="clube" id="milwaukee" data-name="Milwaukee Bucks" data-description="2 vezes campeão da NBA, Milwaukee Bucks é uma franquia localizada em Milwaukee, Wisconsin. A franquia foi fundada em 1968, tendo seu primeiro título conquistado na temporada 1970-1971.">
+                    <img src="./src/imagens/card-milwaukee.png" alt="Clube Milwaukee" width="110">
+                </li>
+
+                <li class="clube" id="brooklyn" data-name="Brooklyn Nets" data-description="Sem nunca ter sido campeão da NBA, Brooklyn Nets é uma franquia localizada em Brooklyn, New York. A franquia foi fundada em 1967.">
+                    <img src="./src/imagens/card-brooklyn.png" alt="Clube Brooklyn" width="110">
+                </li>
+
+                <li class="clube" id="knicks" data-name="New York Knicks" data-description="2 vezes campeão da NBA, New York Knicks é uma franquia localizada em Manhattan, New York City, New York. A franquia foi fundada em 1946, tendo seu primeiro título conquistado na temporada 1969-1970.">
+                    <img src="./src/imagens/card-knicks.png" alt="Clube Knicks" width="110">
+                </li>
+
+                <li class="clube" id="orlando" data-name="Orlando Magic" data-description="Sem nunca ter sido campeão da NBA, Orlando Magic é uma franquia localizada em Orlando, Flórida. A franquia foi fundada em 1989.">
+                    <img src="./src/imagens/card-orlando.png" alt="Clube Orlando" width="110">
+                </li>
+
+                <li class="clube" id="philadelphia" data-name="Philadelphia 76ers" data-description="3 vezes campeão da NBA, Philadelphia 76ers é uma franquia localizada em Philadelphia, Pensilvânia. A franquia foi fundada em 1946, tendo seu primeiro título conquistado na temporada 1954-1955.">
+                    <img src="./src/imagens/card-philadelphia.png" alt="Clube philadelphia" width="110">
+                </li>
+
+                <li class="clube" id="toronto" data-name="Toronto Raptors" data-description="1 vez campeão da NBA, Toronto Raptors é uma franquia localizada em Toronto, Ontário, Canadá. A franquia foi fundada em 1995, tendo seu primeiro título conquistado na temporada 2018-2019.">
+                    <img src="./src/imagens/card-toronto.png" alt="Clube toronto" width="110">
+                </li>
+
+                <li class="clube" id="washington" data-name="Washington Wizards" data-description="1 vez campeão da NBA, Washington Wizards é uma franquia localizada em Washington, D.C. A franquia foi fundada em 1961, tendo seu primeiro título conquistado na temporada 1977-1978.">
+                    <img src="./src/imagens/card-washington.png" alt="Clube washington" width="110">
+                </li>
+            </ul>
+    </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
